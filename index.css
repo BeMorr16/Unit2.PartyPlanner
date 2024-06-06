@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+#form {
+    background-color: grey;
+    padding: 1rem;
+    max-width: 500px;
+}
+h1{
+    text-align: center;
+}
+h3 {
+    text-decoration: underline;
+}
+#time {
+    width: 110px;
+}
+
+.formSection {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+
+}
+
+.inline {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .formSection:last-child {
+    flex-direction: column;
+  }
+  
+  label {
+    margin-right: 5px;
+  }
+
+  textarea {
+    box-sizing: border-box;
+    padding: 5px;
+    resize: vertical; /* Allows users to resize the textarea vertically */
+  }
+  #add {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+  }

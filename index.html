@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Party Planner</title>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <h1>Party Planner</h1>
+    <section>
+    <h3>Add a party:</h3>
+    <form method="POST" id="form">
+        <section class="formSection">
+            <div class="inline"><label for="name">Name:</label><input type="text" name="name" id="name"/></div>
+            <div class="inline"><label for="date">Date:</label><input type="date" name="date" id="date"/></div>
+        </section>
+        <section class="formSection">
+            <div class="inline"><label for="time">Time:</label><input type="time" name="time" id="time" value="19:30"/></div>
+            <div class="inline"><label for="location">Location:</label
+                ><input type="text" name="location" id="location"/></div>
+        </section>
+        <section class="formSection">
+      <label for="description">Description:</label
+      ><textarea id="description" name="description" rows="8"></textarea>
+      <div id="add"><button type="submit">Add</button></div>
+    </section>
+    </form>
+</section>
+<table id="table">
+    <tr>
+        <th>Name</th>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Location</th>
+        <th>Description</th>
+        <th>Edit</th>
+    </tr>
+    <tr>
+        
+    </tr>
+
+</table>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
